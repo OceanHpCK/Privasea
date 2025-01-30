@@ -76,9 +76,10 @@ mkdir -p ~/privasea/config && cd ~/privasea
 ```
 docker run --rm -it -v "$HOME/privasea/config:/app/config" privasea/acceleration-node-beta:latest ./node-calc new_keystore
 ```
-Đặt mật khẩu
-Sau khi đặt mật khẩu xong sẽ hiện ra dòng:
-node address: <Địa chỉ node> ---Bạn hãy lưu lại địa chỉ này để tý nữa sử dụng tại bước 7
+- Đặt mật khẩu
+- Sau khi đặt mật khẩu xong sẽ hiện ra dòng:
+ ### node address: <Địa chỉ node> ---Bạn hãy lưu lại địa chỉ này để tý nữa sử dụng tại bước 7
+
 6. Chuyển keystore vào thư mục privasea
 ```
 mv $HOME/privasea/config/UTC--* $HOME/privasea/config/wallet_keystore
@@ -100,9 +101,13 @@ Note: Nhớ thay <Mật Khẩu> bằng mật khẩu đã đặt cho keystore ph�
 
 9. Check log
 ```
-docker logs -f <eb723c38e3e6283f6c9d50512828408bd6df2fbba22d1991daa459778d3e73bc>
+docker logs -f <Container ID>
 ```
-Note: Thay <eb723c38e3e6283f6c9d50512828408bd6df2fbba22d1991daa459778d3e73bc> bằng khóa node của bạn
+Note: Thay <Container ID> bằng ID của bạn
+Có thể check bằng lệnh: 
+```
+docker ps -a
+```
 
 10. Dừng node
 ```
