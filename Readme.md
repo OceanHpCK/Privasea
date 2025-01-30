@@ -77,7 +77,8 @@ mkdir -p ~/privasea/config && cd ~/privasea
 docker run --rm -it -v "$HOME/privasea/config:/app/config" privasea/acceleration-node-beta:latest ./node-calc new_keystore
 ```
 Đặt mật khẩu
-
+Sau khi đặt mật khẩu xong sẽ hiện ra dòng:
+node address: <Địa chỉ node> ---Bạn hãy lưu lại địa chỉ này để tý nữa sử dụng tại bước 7
 6. Chuyển keystore vào thư mục privasea
 ```
 mv $HOME/privasea/config/UTC--* $HOME/privasea/config/wallet_keystore
@@ -85,7 +86,11 @@ mv $HOME/privasea/config/UTC--* $HOME/privasea/config/wallet_keystore
 
 7.
 - Truy cập vào [Privanetix Dashboard](https://deepsea-beta.privasea.ai/privanetixNode)
-- Kết nối ví chính và thiết lập node 
+- Kết nối ví chính và thiết lập node
+- Đặt tên Node tại mụa Edit Node Name
+- Edit your node address... : điền địa chỉ ví lấy được ở mục số 5 bên trên
+=> Sau đó ấn confirm .. => ký ví và trả gas bằng ETH-arb Speolia
+(bạn nên tạo 1 ví mới => chuyển gas ETH-arb Sepolia sang và sử dụng ví okx, các ví khác mình xài đều bị lỗi)
 
 8. Run node
 ```
