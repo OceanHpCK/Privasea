@@ -1,4 +1,4 @@
-CẤU HÌNH
+### CẤU HÌNH
 - Component	Requirement
 - Operating System (OS)	Ubuntu (Recommended)
 - CPU Architecture	amd64 (x86 architecture)
@@ -13,9 +13,9 @@ https://faucet.quicknode.com/arbitrum/sepolia
 - Faucet Privasea DeepSea Beta tokens
   https://deepsea-beta.privasea.ai/deepSeaFaucet
 
-Hướng dẫn chạy:
+### Hướng dẫn chạy:
 Mở terminal trên Ubuntu và nhập các lệnh sau:
-(ps: Đối với sử dụng win thì mở Ubuntu lên và chạy lệnh này trước:
+ps: Đối với sử dụng win thì mở Ubuntu lên và chạy lệnh này trước:
 ```
 Sudo su
 ```
