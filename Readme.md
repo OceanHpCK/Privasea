@@ -18,7 +18,7 @@ Mở terminal trên Ubuntu và nhập các lệnh sau:
 
 ps: Đối với sử dụng win thì mở Ubuntu lên và chạy lệnh này trước:
 ```
-Sudo su
+sudo su
 ```
 1. Update
 
